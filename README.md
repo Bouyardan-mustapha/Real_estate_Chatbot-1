@@ -60,10 +60,6 @@ ont également augmenté de 87,6% à 99%.
  data.csv : ce fichier contient les données sur lesquels nous avons entrainé notre
 modèle.
 
- Chatbot_rec.wmv : il contient une démonstration du fonctionnement du chatbot en
-traitant tous ses cas d’utilisation (nous allons mentionner ces cas par la suite dans ce
-guide).
-
 # 2. Mode d’utilisation :
 Voici la procédure détaillée pour utiliser notre chatbot :
 1. Ouvrez le terminal dans le répertoire où se trouve le projet.
