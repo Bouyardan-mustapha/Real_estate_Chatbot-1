@@ -1,0 +1,522 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Nice to see you",
+        "Howdy",
+        "Greetings",
+        "HouseBot",
+        "Hi housebot!"
+      ],
+      "responses": [
+        "Hey, I'm HouseBot, how can I help you?",
+        "Hello, thanks for visiting, I'm HouseBot, how can I assist you today?",
+        "Hi there, my name is HouseBot, what can I do for you?",
+        "Hi there, I'm HouseBot, how can I help?",
+        "I'm here to assist you. What can I help you with?",
+        "Hello! I'm ready to answer your questions.",
+        "Nice to meet you! How can I assist you today?",
+        "Greetings! How may I assist you?",
+        "I'm here and ready to help! What can I do for you?",
+        "Hi! I hope you're having a wonderful day, how can I assist you?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you",
+        "What's up?",
+        "How have you been?",
+        "How's everything?",
+        "How's your day going?",
+        "How are things?",
+        "Hi housebot! How are you?"
+      ],
+      "responses": [
+        "I'm good, thanks! How about you?",
+        "I'm doing well, thank you! How can I help you?",
+        "Everything's going well here. How about you?",
+        "I'm great! How about yourself?"
+      ]
+    },
+    {
+      "tag": "fine",
+      "patterns": [
+        "I'm fine thanks",
+        "I'm good, what about you?",
+        "I'm doing well, thank you.",
+        "I'm great, how about yourself?",
+        "I'm feeling fantastic, thanks!",
+        "I'm in a good mood, thanks for asking.",
+        "I'm feeling wonderful, and you?",
+        "I'm doing excellent, thank you for asking.",
+        "I'm feeling pretty good, how about you?",
+        "I'm doing just fine, thank you.",
+        "I'm feeling really good today, thanks!",
+        "I'm feeling fantastic, how about yourself?"
+      ],
+      "responses": [
+        "Wonderful! How may I be of help to you?",
+        "Excellent! What can I do to assist you today?",
+        "Awesome! How may I support you?",
+        "Fantastic! How can I be of service to you?",
+        "Terrific! What can I help you with today?",
+        "Superb! How can I assist you in achieving your goals?",
+        "Amazing! How may I lend a hand to you today?",
+        "Splendid! What can I do to make your day even better?",
+        "Marvelous! How can I contribute to your success today?",
+        "Outstanding! How may I assist you on this fine day?"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Goodbye!",
+        "Bye",
+        "Thanks, see you later",
+        "Farewell!",
+        "Take care and have a great day!",
+        "Until we meet again!",
+        "Wishing you all the best!",
+        "Have a wonderful day ahead!",
+        "Goodbye and stay well!",
+        "Thank you and see you soon!",
+        "Have a fantastic time!",
+        "Catch you later!",
+        "Many thanks and farewell!",
+        "Got what I want, goodbye!"
+      ],
+      "responses": [
+        "Farewell! If you have any further questions, feel free to reach out.",
+        "Thank you for your time! If you need any more assistance in the future, don't hesitate to ask.",
+        "Until we meet again! Take care and have a great day!",
+        "Wishing you all the best too! If there's anything else I can help with, let me know.",
+        "Have a wonderful day ahead as well! If you have any more inquiries, feel free to ask.",
+        "Goodbye and stay well! If you require any further support, feel free to reach out.",
+        "Thank you for your interaction! We look forward to assisting you again soon.",
+        "Have a fantastic time too! Should you have any additional questions, don't hesitate to ask.",
+        "Catch you later! If there's anything else you need assistance with, feel free to come back.",
+        "Many thanks for your engagement! Farewell, and feel free to return if you need any further help."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Hi, what's your name?",
+        "Hey, who are you?",
+        "Hello there, may I know your name?",
+        "Greetings! What should I call you?",
+        "Hey, who am I speaking with?",
+        "Nice to meet you! Mind sharing your name?",
+        "Hi! I'm curious, what do you go by?",
+        "Hello! Could you kindly introduce yourself?",
+        "Hey, I'm curious to know who I'm chatting with. Care to share your name?",
+        "Greetings! Before we begin, could you tell me a bit about yourself?",
+        "Hi there! I'd love to know who I'm talking to. What's your name?",
+        "Hey! Before we dive in, let's get acquainted. What's your name?"
+        ],
+      "responses": [
+        "Hey, I'm HouseBot, how can I help you?",
+        "My name is HouseBot, how can I assist you?",
+        "I am HouseBot, at your service. How may I assist you today?",
+        "I'm HouseBot! How can I help make your day better?",
+        "HouseBot here, ready to assist you with any house-related queries. What can I do for you?",
+        "I'm HouseBot, your virtual home assistant. How may I be of service to you?",
+        "I'm HouseBot, designed to help you with anything related to your house. What do you need assistance with?",
+        "HouseBot reporting for duty. How can I make your home life easier today?",
+        "I'm HouseBot, your reliable house management companion. How can I support you?",
+        "HouseBot speaking. Let me know how I can assist you with your house-related needs.",
+        "I'm HouseBot, your personal home assistant. What tasks or information are you seeking?",
+        "Welcome! My name is HouseBot, and I'm here to lend a hand with all things related to your house. How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "I want to know the value of my property",
+        "Can you give me an idea of my house's price?",
+        "What is the estimated value of my house?",
+        "Could you provide a price estimate for my property?",
+        "I'm interested in knowing the market value of my house",
+        "Can you help me determine my house's worth?",
+        "What range of prices can I expect for my property?",
+        "Tell me about the valuation of my house",
+        "How much could I list my house for?",
+        "How much do my house cost?",
+        "Can you give me an idea of the pricing for my house?",
+        "What is the price range for my house?",
+        "What is the price of my house?",
+        "How expensive is my house?"
+      ],
+      "responses": [
+        "Sure! I'd be happy to assist you in determining the value of your house. To provide an accurate estimate, please provide some details about your property, including the number of bedrooms?",
+        "Certainly! In order to estimate the price of your house, I'll need some specific information. Please provide details about your property, such as the number of bedrooms?",
+        "I can help you assess the value of your house. To get started, please share some details about your property, including the number of bedrooms, so that I can provide you with an estimated price range?",
+        "Determining the worth of a house requires specific information. Kindly provide me with details about your property, such as the number of bedrooms?",
+        "What are the features of the house you sell, including the number of bedrooms?",
+        "Tell me about the key features of your house, including the number of bedrooms?",
+        "Can you describe the features of your house, including the number of bedrooms?",
+        "The pricing of our house varies depending on factors such as location, size, features... To provide you with accurate pricing information, could you please specify the number of bedrooms you have?",
+        "If you can provide some details about your house's features, including the number of bedrooms, I can help you predict the price.",
+        "House prices vary depending on the property's specifications. Please provide me with more details about your house, including the number of bedrooms."
+      ]
+    },  
+    {
+      "tag" : "bedrooms",
+      "patterns": [
+        "I have 2 bedrooms",
+        "My house contains 3 bedrooms",
+        "I have 2 bedrooms and a home office in my house",
+        "My property consists of 3 bedrooms and a bonus room",
+        "Our house features 4 spacious bedrooms",
+        "I have a cozy home with 5 comfortable bedrooms",
+        "The house I own has a total of 4 bedrooms, perfect for a large family",
+        "My property consists of 6 bedrooms",
+        "We have a property with 8 bedrooms and a separate guest suite",
+        "My house has 4 bedrooms for a luxurious living space",
+        "3 bedrooms",
+        "bedrooms number is 4",
+        "5 bedrooms",
+        "1 bedroom",
+        "My house contains 1 bedroom"
+      ],
+      "responses": [
+        "Please give me the number of bedrooms!"
+      ]
+    }, 
+    {
+      "tag": "bathrooms",
+      "patterns": [
+        "I have 2 bathrooms",
+        "My house contains 3 bathrooms",
+        "I have 2 bathrooms and a powder room in my house",
+        "My property consists of 3 bathrooms and a spa-like master bath",
+        "Our house features 4 spacious bathrooms",
+        "I have a cozy home with 5 bathrooms, perfect for a large family",
+        "The house I own has a total of 4 bathrooms and a guest powder room",
+        "My property consists of 6 bathrooms for added convenience",
+        "We have a property with 8 bathrooms and a luxurious en-suite in every bedroom",
+        "My house has 4 bathrooms and a separate shower room for a spa-like experience",
+        "3 bathrooms",
+        "bathrooms number is 4",
+        "5 bathrooms",
+        "1 bathroom",
+        "My house contains 1 bathroom"
+      ],
+      "responses": [
+        "Please give me the number of bathrooms!"
+      ]
+    },  
+    {
+      "tag": "total living area",
+      "patterns": [
+        "My apartment has a total living area of 80 square meters.",
+        "Our house is spacious, with a total living area of 200 square meters.",
+        "I recently moved into a cozy studio apartment with a total living area of 40 square meters.",
+        "Our family home boasts a generous total living area of 300 square meters.",
+        "I'm currently renting a small townhouse with a total living area of 60 square meters.",
+        "The condominium I live in offers units with varying sizes, and mine has a total living area of 100 square meters.",
+        "I'm planning to downsize and move into a smaller space with a total living area of 50 square meters.",
+        "My loft apartment has an open floor plan and a total living area of 120 square meters.",
+        "The new apartment complex offers luxurious penthouses with a total living area of 400 square meters.",
+        "I recently renovated my house, expanding the total living area from 150 to 180 square meters."
+      ],
+      "responses": [
+        "Please tell me the total living area [sqft_living]!"
+      ]
+    },
+    {
+      "tag": "total lot area",
+      "patterns": [
+        "My apartment is situated on a plot with a total land area of 80 square meters.",
+        "Our spacious house is built on a lot encompassing 200 square meters of land.",
+        "I recently moved into a cozy studio apartment located on a plot spanning 40 square meters in total.",
+        "Our family home is situated on a generous lot covering 300 square meters of land.",
+        "I'm currently renting a small townhouse situated on a lot measuring 60 square meters in total.",
+        "The condominium I live in offers units with varying sizes, and mine is located on a plot with a total land area of 100 square meters.",
+        "I'm planning to downsize and move into a smaller space situated on a lot spanning 50 square meters.",
+        "My loft apartment is located on a plot with a total land area of 120 square meters and features an open floor plan.",
+        "The new apartment complex offers luxurious penthouses situated on plots with varying total land areas, and some of them cover as much as 400 square meters.",
+        "I recently renovated my house, and the lot it sits on covers a total area of 250 square meters."
+      ],
+      "responses": [
+        "Please tell me the total lot area [sqft_lot]!"
+      ]
+    },
+    {
+      "tag": "floors",
+      "patterns": [
+        "My house contains 2 floors, offering a two-level living space for my family.",
+        "Our residence has 4 floors, providing four distinct levels for different purposes.",
+        "I recently moved into a house with 3 floors, where the ground floor serves as the living area and the upper floor houses the bedrooms.",
+        "Our property features a layout with 5 floors, accommodating various rooms and living spaces throughout each level.",
+        "I'm currently living in a 2-story dwelling, enjoying the convenience of having separate levels for different activities.",
+        "The house I reside in has 3 floors, allowing for versatile use of space and providing ample room for everyone in the family.",
+        "My home boasts a modern design with 2 stories, with the ground floor encompassing the common areas and the upper floor dedicated to bedrooms.",
+        "We have a stunning house with 4 floors, offering breathtaking views from the topmost level.",
+        "I enjoy the layout of my 2-story residence, as it provides a clear separation between the living spaces and the private quarters.",
+        "The house I own has 8 floors, including a basement, main level, upper floor, and attic, each serving different purposes and adding to the overall functionality of the space.",
+        "My house contains 1 floor.",
+        "I have 2 floors in my house"
+      ],
+      "responses": [
+        "Please tell me the number of floors you have!"
+      ]
+    },
+    {
+      "tag": "waterfront",
+      "patterns": [
+        "Yes, my house has a breathtaking waterfront view, overlooking a serene lake.",
+        "Yes, my property boasts a stunning waterfront view, with direct access to a beautiful beach.",
+        "Absolutely yes! My house offers a picturesque waterfront view, with a river flowing right through the backyard.",
+        "Yes, my home is perfectly situated to enjoy a mesmerizing waterfront view, with panoramic vistas of the ocean.",
+        "yes! My house features large windows that showcase a magnificent waterfront view, where I can watch sailboats gliding by.",
+        "yes! My property is nestled on the shores of a tranquil lake, providing a serene waterfront view from every room.",
+        "Yes, my house offers the luxury of a waterfront view, with a private dock where I can admire the scenic beauty of the river.",
+        "yes! My home is perched on a hillside, offering stunning views of the waterfront below.",
+        "Yes, my house has a prime location with a stunning waterfront view, allowing me to witness breathtaking sunsets over the bay.",
+        "yes! My property is blessed with a gorgeous waterfront view, where I can relax and enjoy the soothing sounds of the nearby river.",
+        "yes",
+        "yes of course",
+        "no",
+        "No, my house does not have a waterfront view, but it offers other charming features.",
+        "Unfortunately no, my property does not provide a waterfront view, but it has its own unique appeal.",
+        "No, my house is not situated near the water, but it has its own distinctive qualities.",
+        "Regrettably no, my home does not offer a waterfront view, but it has other desirable attributes.",
+        "No, my house does not overlook any body of water, but it has its own special surroundings.",
+        "Unfortunately no, I do not have a waterfront view from my house, but there are other aspects I appreciate about it.",
+        "No, my property is not located by the water, but it has its own appealing characteristics.",
+        "Regrettably no, my house does not feature a waterfront view, but it possesses other attractive qualities.",
+        "No, my home does not have a view of the water, but it has its own unique outlook.",
+        "Unfortunately no, I do not enjoy a waterfront view from my house, but there are other aspects I value about it."
+      ],
+      "responses": [
+        "Please tell me if your house have a waterfront or not (0 for no/ 1 for yes)!"
+      ]
+    },
+    {
+      "tag": "view",
+      "patterns": [
+        "I would rate the view from my house a solid 4. It offers beautiful sights of rolling hills and lush greenery.",
+        "The view from my property is a definite 5! It overlooks a stunning city skyline that lights up the night.",
+        "I'd rate the view from my home a 3. While it's not extraordinary, it provides a pleasant glimpse of a nearby park.",
+        "On a scale of 0 to 5, I would rate the view from my house a 2. It's mostly obstructed by surrounding buildings.",
+        "The view from my property is a strong 4. It captures a breathtaking panorama of the mountains in the distance.",
+        "Considering the view from my house, I would rate it a solid 3. It offers glimpses of a tranquil lake through the trees.",
+        "I'd rate the view from my home a 1. Unfortunately, it primarily overlooks a busy highway, limiting its appeal.",
+        "From my house, I enjoy a remarkable view that I would rate as a perfect 5. It encompasses a vast, sparkling ocean.",
+        "I would rate the view from my property a 2. While it includes a small garden, the surrounding area is mostly industrial.",
+        "Considering the view from my house, I would rate it a 3. It showcases a peaceful countryside with occasional farm fields."
+      ],
+      "responses": [
+        "Please tell me the rate of the house's view!"
+      ]
+    },
+    {
+      "tag": "condition",
+      "patterns": [
+        "I would rate the condition of my house as a solid 4. It is well-maintained and in good shape overall.",
+        "The condition of my house is a definite 5! It has been meticulously cared for and is in excellent condition.",
+        "I'd rate the condition of my house a 3. It could use some minor repairs and updates, but it's still in decent shape.",
+        "On a scale of 1 to 5, I would rate the condition of my house a 2. It needs significant renovations and repairs.",
+        "The condition of my house is a strong 4. It has been recently renovated and is in great condition both inside and out.",
+        "Considering the condition of my house, I would rate it a solid 3. It has some wear and tear but is generally well-maintained.",
+        "I'd rate the condition of my house a 1. Unfortunately, it requires extensive repairs and remodeling.",
+        "From my house's condition, I would rate it a perfect 5. It has been impeccably maintained and is in pristine condition.",
+        "I would rate the condition of my house a 2. It has some structural issues and cosmetic damages that need attention.",
+        "Considering the condition of my house, I would rate it a 3. It has a few minor issues but is generally in livable condition."
+      ],
+      "responses": [
+        "Please tell me the what is your house condition!"
+      ]
+    },
+    {
+      "tag": "grade",
+      "patterns": [
+        "The grade of my house is an 8, indicating its overall quality and condition.",
+        "On a scale of 1 to 15, I would rate my house a 12, reflecting its excellent features and craftsmanship.",
+        "The grade of my house is a 5, representing its average condition and suitability.",
+        "I would give my house a grade of 10, highlighting its above-average quality and design.",
+        "On a scale of 1 to 15, my house receives a grade of 3, indicating significant improvement and renovation needs.",
+        "The grade of my house is a 7, suggesting its good condition and desirable features.",
+        "I would rate my house a 14, signifying its outstanding quality and luxurious amenities.",
+        "Considering various factors, my house receives a grade of 6, indicating its below-average condition and potential for improvement.",
+        "On a scale of 1 to 15, my house is graded as 9, reflecting its well-maintained condition and attractive design.",
+        "The grade of my house is 11, indicating its above-average quality and desirable characteristics."
+        ],
+      "responses": [
+        "Please tell me what is the grade of your house!"
+      ]
+    },
+    {
+      "tag": "above",
+      "patterns": [
+        "The square footage of my house, excluding the basement, is approximately 2000 square feet.",
+        "Excluding the basement, my house has a total square footage of around 1800 square feet.",
+        "The livable area of my house, excluding the basement, measures approximately 2,500 square feet.",
+        "Excluding the basement, the square footage of my house is around 1600 square feet.",
+        "My house, excluding the basement, has a total square footage of approximately 2300 square feet.",
+        "The living space in my house, excluding the basement, measures around 1900 square feet.",
+        "Excluding the basement, the square footage of my house is approximately 2100 square feet.",
+        "My house has around 2400 square feet of livable space, excluding the basement area.",
+        "The total square footage of my house, excluding the basement, is approximately 1700 square feet.",
+        "Excluding the basement, the livable area of my house measures around 2800 square feet."
+      ],
+      "responses": [
+        "Please give me the square footage of the house excluding the basement [sqft_above]!"
+      ]
+    },
+    {
+      "tag": "basement",
+      "patterns": [
+        "The basement of my house has a square footage of approximately 800 square feet.",
+        "The total square footage of the basement in my house is around 1200 square feet.",
+        "My basement measures approximately 600 square feet in terms of square footage.",
+        "The square footage of the basement in my house is approximately 900 square feet.",
+        "The basement in my house has a total square footage of around 1500 square feet.",
+        "Approximately 700 square feet is the size of the basement in my house in terms of square footage.",
+        "The square footage of my house's basement measures around 1000 square feet.",
+        "My basement has a square footage of approximately 850 square feet.",
+        "The total square footage of the basement in my house is approximately 1100 square feet.",
+        "The square footage of the basement in my house is around 750 square feet."
+      ],
+      "responses": [
+        "Please give me te square footage of the basement [sqft_basement]!"
+      ]
+    },
+    {
+      "tag": "built",
+      "patterns": [
+        "My house was built in 2010, reflecting a more recent construction.",
+        "The construction of my house was completed in 1985, adding a sense of history to its design.",
+        "I live in a historic home built in 1900, standing for over a century.",
+        "The house I reside in was built in 1978, showcasing its architectural heritage.",
+        "My house is a modern construction, completed in 2015, with contemporary features.",
+        "The construction of my house was finished in 2005, featuring a design from that era.",
+        "I own a charming cottage built in the 1950s, capturing its timeless appeal.",
+        "My house was constructed in 1998, reflecting the architectural style of that period.",
+        "I reside in a recently built home, completed in 2021, offering modern amenities.",
+        "The construction of my house was completed in 1963, embodying the architectural trends of that time."
+      ],
+      "responses": [
+        "Please tell me the year when your house was built [yr_built]!"
+      ]
+    },
+    {
+      "tag": "renovated",
+      "patterns": [
+        "My house was renovated in 2018, bringing a fresh and updated look to the property.",
+        "We recently completed renovations on our house in 2020, enhancing its features and functionality.",
+        "There have been no renovations on my house yet, so the renovation year is 0.",
+        "In 2015, we invested in a major renovation project for our house, transforming it into a modern living space.",
+        "We haven't conducted any renovations on our house, so the renovation year is 0.",
+        "The last renovation on my house took place in 2012, improving its interior and exterior aspects.",
+        "Our house underwent renovations in 2019, upgrading its infrastructure and design.",
+        "Since its construction, my house has never been renovated, so the renovation year is 0.",
+        "In 2017, we decided to renovate our house, giving it a fresh and contemporary feel.",
+        "There have been no renovations on my house, maintaining its original features and character."
+      ],
+      "responses": [
+        "Please tell me the year when your house was renovated [yr_renovated]!"
+      ]
+    },
+    {
+      "tag": "zipcode",
+      "patterns": [
+        "The zipcode of my house is 34125.",
+        "My house is located in the zipcode 76980.",
+        "The zipcode for my house is 46758.",
+        "You can find my house in the 96758 zipcode area.",
+        "The zipcode that corresponds to my house is 23456.",
+        "My house is situated in the 36457 zipcode region.",
+        "The zipcode associated with my house is 56789.",
+        "You'll find my house in the 78901 zipcode district.",
+        "The zipcode of my house is 12034.",
+        "My house falls within the 89012 zipcode boundary."
+      ],
+      "responses": [
+        "Please give me the zipcode!"
+      ]
+    },
+    {
+      "tag": "latitude",
+      "patterns": [
+        "The latitude coordinate of my house is 40.7128.",
+        "My house is located at a latitude of 37.7749.",
+        "The latitude coordinate for my house is 41.8781.",
+        "You'll find my house situated at a latitude of 34.0522° N.",
+        "The latitude of my house is approximately 38.9072° N.",
+        "My house is positioned at a latitude coordinate of 42.3601.",
+        "The latitude of my house is around 33.7490.",
+        "You can locate my house at a latitude of 39.9526.",
+        "The latitude coordinate for my house is 36.1699.",
+        "My house is at a latitude of 35.2271° N."
+      ],
+      "responses": [
+        "Please give me the latitude coordinate of your house [lat]!"
+      ]
+    },
+    {
+      "tag": "longitude",
+      "patterns": [
+      "The longitude coordinate of my house is 74.0060.",
+      "My house is located at a longitude of 122.4194° W.",
+      "The longitude coordinate for my house is 87.6298.",
+      "You'll find my house situated at a longitude of 118.2437° W.",
+      "The longitude of my house is approximately 77.0370.",
+      "My house is positioned at a longitude coordinate of 71.0589.",
+      "The longitude of my house is around 84.3880W.",
+      "You can locate my house at a longitude of 75.1652° W.",
+      "The longitude coordinate for my house is 86.7844.",
+      "My house is at a longitude of 80.8431° W."
+      ],
+      "responses": [
+        "Please give me the longitude coordinate of the house [long]!"
+      ]
+    },
+    {
+      "tag": "living area 2015",
+      "patterns": [
+        "The living areas is about 2800 square feet.",
+        "The living areas is around 400 square feet.",
+        "In the vicinity, the living areas are approximately 550 square feet.",
+        "I have living areas of about 600 square feet.",
+        "Within proximity, the living areas are approximately 450 square feet.",
+        "The living areas measure around 700 square feet.",
+        "In the vicinity, the living areas are about 800 square feet.",
+        "I have living areas of approximately 900 square feet.",
+        "Within proximity, the living areas are around 1200 square feet.",
+        "The living areas span about 1500 square feet.",
+        "In the vicinity, the living areas are approximately 1800 square feet."
+      ],
+      "responses": [
+        "Please give me the living area in square feet in 2015 (implies renovations)[sqft_living15]!"
+      ]
+    },
+    {
+      "tag": "lot area 2015",
+      "patterns": [
+        "The lot areas is about 10,000 square feet.",
+        "The lot areas are around 5,000 square feet.",
+        "In the vicinity, the lot areas are approximately 7,500 square feet.",
+        "I have lot areas of about 6,000 square feet.",
+        "Within proximity, the lot areas are approximately 8,000 square feet.",
+        "The lot areas measure around 44,000 square feet.",
+        "In the vicinity, the lot areas are about 6,500 square feet.",
+        "I have lot areas of approximately 7,000 square feet.",
+        "Within proximity, the lot areas are around 60,000 square feet.",
+        "The lot areas span about 5,500 square feet.",
+        "In the vicinity, the lot areas are approximately 8,500 square feet."
+      ],
+      "responses": [
+        "Please give me the lot area in square feet in 2015 (implies renovations)[sqft_lot15]!"
+      ]
+    }
+  ]
+}
